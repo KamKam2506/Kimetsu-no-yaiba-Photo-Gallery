@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demon Slayer Interactive Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>Demon Slayer Character Gallery</h1>
+
+  <!-- Display box required by the assignment -->
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <!-- Thumbnails with inline event listeners -->
+  <div class="gallery">
+    <img 
+      class="preview" 
+      alt="Tanjiro Kamado - Water & Sun Breathing Swordsman" 
+      src="https://i.pinimg.com/736x/21/48/70/21487063a986ad6c240877bdb19821bf.jpg" 
+      onmouseover="upDate(this)" 
+      onmouseleave="unDo()"
+    />
+
+    <img 
+      class="preview" 
+      alt="Muichiro Tokito - Mist Breathing Hashira" 
+      src="https://i.pinimg.com/736x/f1/41/d1/f141d1d1fa260a69bdf8f6da4b10a469.jpg" 
+      onmouseover="upDate(this)" 
+      onmouseleave="unDo()"
+    />
+
+    <img 
+      class="preview" 
+      alt="Kyojuro Rengoku - Flame Breathing Hashira" 
+      src="https://i.pinimg.com/736x/ee/58/12/ee5812c94c9bface620c4062e781d276.jpg" 
+      onmouseover="upDate(this)" 
+      onmouseleave="unDo()"
+    />
+  </div>
+
+</body>
+</html>
